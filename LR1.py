@@ -110,4 +110,27 @@ def read_camera():
     cap.release()
     cv2.destroyAllWindows()
 
-read_camera()
+def readCameraWriteTOFile():
+    video = cv2.VideoCapture("http://192.168.0.103:8080/video", cv2.CAP_ANY)
+    ok, vid = video.read()
+
+    w = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))
+    h = int(video.get(cv2.CAP_PROP_FRAME_HEIGHT))
+
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    video_writer = cv2.VideoWriter("data/camera.mp4", fourcc, 25, (w, h))
+
+    while True:
+        ok, vid = video.read()
+
+        cv2.imshow('Video', vid)
+        video_writer.write(vid)
+
+        if cv2.waitKey(30) & 0xFF == 27:
+            break
+
+    video.release()
+    video_writer.release()
+    cv2.destroyAllWindows()
+
+readCameraWriteTOFile()
