@@ -27,11 +27,11 @@ def read_video():
         ret, frame = cap.read()
         if not ret:
             break
-        resized_frame = cv2.resize(frame, (1080, 360))
-        mexico_frame = cv2.cvtColor(resized_frame, cv2.COLOR_YCrCb2BGR)
-        cv2.imshow('Orig', frame)
-        cv2.imshow('Resize', resized_frame)
-        cv2.imshow('Mexico', mexico_frame)
+        resized_frame = cv2.resize(frame, (360, 360))
+        filter_frame = cv2.cvtColor(resized_frame, cv2.COLOR_YCrCb2BGR)
+        cv2.imshow('Original', frame)
+        cv2.imshow('Resized', resized_frame)
+        cv2.imshow('Filter', filter_frame)
         if cv2.waitKey(25) & 0xFF == ord('z'):
             break
     cap.release()
