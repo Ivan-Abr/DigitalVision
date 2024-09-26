@@ -61,4 +61,19 @@ def readIPWriteTOFile():
     video_writer.release()
     cv2.destroyAllWindows()
 
-readIPWriteTOFile()
+def to_HSV_format():
+    img = cv2.imread(r"E:\python\visionLabs\data\img.png")
+    img_edit = cv2.imread(r"E:\python\visionLabs\data\img.png")
+
+    cv2.namedWindow('image', cv2.WINDOW_NORMAL)
+    cv2.namedWindow('edited image', cv2.WINDOW_NORMAL)
+
+    cv2.imshow('image', img)
+
+    hsv = cv2.cvtColor(img_edit, cv2.COLOR_BGR2HSV)
+    cv2.imshow('edited image', hsv)
+
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+to_HSV_format()
