@@ -17,4 +17,24 @@ def read_image():
                 cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-read_image()
+#TASK 3
+def read_video():
+    cap = cv2.VideoCapture('data/helloArbuz.mp4')
+    if not cap.isOpened():
+        print("Невозможно открыть файл")
+        exit()
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
+        resized_frame = cv2.resize(frame, (1080, 360))
+        mexico_frame = cv2.cvtColor(resized_frame, cv2.COLOR_YCrCb2BGR)
+        cv2.imshow('Orig', frame)
+        cv2.imshow('Resize', resized_frame)
+        cv2.imshow('Mexico', mexico_frame)
+        if cv2.waitKey(25) & 0xFF == ord('z'):
+            break
+    cap.release()
+    cv2.destroyAllWindows()
+
+read_video()

@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="VL - git init">
-      <change afterPath="$PROJECT_DIR$/LR1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/helloArbuz.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/img.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR1 - Задание 2: Работа с изображением">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727342045778</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LR1 - Задание 2: Работа с изображением">
+      <option name="closed" value="true" />
+      <created>1727343576318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727343576318</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="VL - git init" />
-    <option name="LAST_COMMIT_MESSAGE" value="VL - git init" />
+    <MESSAGE value="LR1 - Задание 2: Работа с изображением" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR1 - Задание 2: Работа с изображением" />
   </component>
 </project>
