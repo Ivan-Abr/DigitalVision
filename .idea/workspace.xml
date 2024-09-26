@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR1 - Задание 4: Запись видеого из одного файла в другой">
+    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR1 - Задание 5: Преобразование RGB в HSV">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LR1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR1.py" afterDir="false" />
     </list>
@@ -114,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727345606963</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LR1 - Задание 5: Преобразование RGB в HSV">
+      <option name="closed" value="true" />
+      <created>1727350367930</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727350367930</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +168,7 @@
     <MESSAGE value="LR1 - Задание 2: Работа с изображением" />
     <MESSAGE value="LR1 - Задание 2: Работа с видео" />
     <MESSAGE value="LR1 - Задание 4: Запись видеого из одного файла в другой" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR1 - Задание 4: Запись видеого из одного файла в другой" />
+    <MESSAGE value="LR1 - Задание 5: Преобразование RGB в HSV" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR1 - Задание 5: Преобразование RGB в HSV" />
   </component>
 </project>
