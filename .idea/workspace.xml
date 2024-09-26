@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR1 - Задание 2: Работа с изображением">
+    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR1 - Задание 2: Работа с видео">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LR1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727343576318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="LR1 - Задание 2: Работа с видео">
+      <option name="closed" value="true" />
+      <created>1727344458967</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727344458967</updated>
+    </task>
+    <task id="LOCAL-00004" summary="LR1 - Задание 2: Работа с видео">
+      <option name="closed" value="true" />
+      <created>1727344614782</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727344614782</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="VL - git init" />
     <MESSAGE value="LR1 - Задание 2: Работа с изображением" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR1 - Задание 2: Работа с изображением" />
+    <MESSAGE value="LR1 - Задание 2: Работа с видео" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR1 - Задание 2: Работа с видео" />
   </component>
 </project>

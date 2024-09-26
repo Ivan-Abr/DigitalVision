@@ -28,11 +28,11 @@ def read_video():
         if not ret:
             break
         resized_frame = cv2.resize(frame, (360, 360))
-        filter_frame = cv2.cvtColor(resized_frame, cv2.COLOR_YCrCb2BGR)
+        filter_frame = cv2.cvtColor(resized_frame, cv2.COLOR_BGR2GRAY)
         cv2.imshow('Original', frame)
         cv2.imshow('Resized', resized_frame)
         cv2.imshow('Filter', filter_frame)
-        if cv2.waitKey(25) & 0xFF == ord('z'):
+        if cv2.waitKey(30) & 0xFF == 27:
             break
     cap.release()
     cv2.destroyAllWindows()
