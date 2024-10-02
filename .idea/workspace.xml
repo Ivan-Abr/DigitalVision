@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR1 - Задание 7: Запись трансляции с камеры" />
+    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR1 - Задание 8: Запись трансляции с камеры, заполненный крест">
+      <change afterPath="$PROJECT_DIR$/LR1_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LR1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +29,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2mbOfDfgiMpFux1qZGKMrQWnsDn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.LR1.executor": "Run",
+    "Python.LR1_8.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "LR/#1"
@@ -135,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727352672294</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="LR1 - Задание 8: Запись трансляции с камеры, заполненный крест">
+      <option name="closed" value="true" />
+      <created>1727353055292</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727353055292</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +197,7 @@
     <MESSAGE value="LR1 - Задание 5: Преобразование RGB в HSV" />
     <MESSAGE value="LR1 - Задание 6: Трансляция изображения с крестом на экране" />
     <MESSAGE value="LR1 - Задание 7: Запись трансляции с камеры" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR1 - Задание 7: Запись трансляции с камеры" />
+    <MESSAGE value="LR1 - Задание 8: Запись трансляции с камеры, заполненный крест" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR1 - Задание 8: Запись трансляции с камеры, заполненный крест" />
   </component>
 </project>

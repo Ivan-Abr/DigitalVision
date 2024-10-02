@@ -135,38 +135,3 @@ def readCameraWriteTOFile():
     video.release()
     video_writer.release()
     cv2.destroyAllWindows()
-
-#TASK 8
-def fillCross():
-    cap = cv2.VideoCapture("http://192.168.0.103:8080/video")
-    while True:
-        ret, frame = cap.read()
-        if not ret:
-            break
-        height, width, _ = frame.shape
-        cross_image = np.zeros((height, width, 3), dtype=np.uint8)
-        vertical_line_width = 60
-        vertical_line_height = 300
-        cv2.rectangle(
-            cross_image,
-            (width // 2 - vertical_line_width // 2, height // 2 - vertical_line_height // 2),
-            (width // 2 + vertical_line_width // 2, height // 2 + vertical_line_height // 2),
-            (0, 255, 255),
-            -1
-        )
-        horizontal_line_width = 250
-        horizontal_line_height = 55
-        cv2.rectangle(
-            cross_image,
-            (width // 2 - horizontal_line_width // 2, height // 2 - horizontal_line_height // 2),
-            (width // 2 + horizontal_line_width // 2, height // 2 + horizontal_line_height // 2),
-            (0, 255, 255),
-            -1
-        )
-        result_frame = cv2.addWeighted(frame, 1, cross_image, 0.5, 0)
-        cv2.imshow("Red Cross", result_frame)
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
-    cap.release()
-    cv2.destroyAllWindows()
-fillCross()
