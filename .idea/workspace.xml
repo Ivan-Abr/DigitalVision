@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="" />
+    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR1 - Задание 8: Запись трансляции с камеры, заполненный крест">
+      <change afterPath="$PROJECT_DIR$/LR1_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LR1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2mbOfDfgiMpFux1qZGKMrQWnsDn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -18,10 +40,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.LR1.executor": "Run",
+    "Python.LR1_8.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "LR/#1"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\visionLabs\data" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -38,6 +68,136 @@
       <option name="presentableId" value="Default" />
       <updated>1727341909413</updated>
     </task>
+    <task id="LOCAL-00001" summary="VL - git init">
+      <option name="closed" value="true" />
+      <created>1727342045778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727342045778</updated>
+    </task>
+    <task id="LOCAL-00002" summary="LR1 - Задание 2: Работа с изображением">
+      <option name="closed" value="true" />
+      <created>1727343576318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727343576318</updated>
+    </task>
+    <task id="LOCAL-00003" summary="LR1 - Задание 2: Работа с видео">
+      <option name="closed" value="true" />
+      <created>1727344458967</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727344458967</updated>
+    </task>
+    <task id="LOCAL-00004" summary="LR1 - Задание 2: Работа с видео">
+      <option name="closed" value="true" />
+      <created>1727344614782</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727344614782</updated>
+    </task>
+    <task id="LOCAL-00005" summary="LR1 - Задание 2: Работа с видео">
+      <option name="closed" value="true" />
+      <created>1727345248481</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727345248481</updated>
+    </task>
+    <task id="LOCAL-00006" summary="LR1 - Задание 4: Запись видеого из одного файла в другой">
+      <option name="closed" value="true" />
+      <created>1727345606963</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727345606963</updated>
+    </task>
+    <task id="LOCAL-00007" summary="LR1 - Задание 5: Преобразование RGB в HSV">
+      <option name="closed" value="true" />
+      <created>1727350367930</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727350367930</updated>
+    </task>
+    <task id="LOCAL-00008" summary="LR1 - Задание 6: Трансляция изображения с крестом на экране">
+      <option name="closed" value="true" />
+      <created>1727352451753</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727352451753</updated>
+    </task>
+    <task id="LOCAL-00009" summary="LR1 - Задание 7: Запись трансляции с камеры">
+      <option name="closed" value="true" />
+      <created>1727352672294</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727352672294</updated>
+    </task>
+    <task id="LOCAL-00010" summary="LR1 - Задание 8: Запись трансляции с камеры, заполненный крест">
+      <option name="closed" value="true" />
+      <created>1727353055292</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727353055292</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="LR/#1" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="LR/#1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="VL - git init" />
+    <MESSAGE value="LR1 - Задание 2: Работа с изображением" />
+    <MESSAGE value="LR1 - Задание 2: Работа с видео" />
+    <MESSAGE value="LR1 - Задание 4: Запись видеого из одного файла в другой" />
+    <MESSAGE value="LR1 - Задание 5: Преобразование RGB в HSV" />
+    <MESSAGE value="LR1 - Задание 6: Трансляция изображения с крестом на экране" />
+    <MESSAGE value="LR1 - Задание 7: Запись трансляции с камеры" />
+    <MESSAGE value="LR1 - Задание 8: Запись трансляции с камеры, заполненный крест" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR1 - Задание 8: Запись трансляции с камеры, заполненный крест" />
   </component>
 </project>
