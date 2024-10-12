@@ -99,4 +99,34 @@ def morphological_transform():
     cap.release()
     cv2.destroyAllWindows()
 
+#TASK 4
+def capture_in_contour():
+    cap = cv2.VideoCapture("http://192.168.0.104:8080/video")
+    if not cap.isOpened():
+        print("Невозможно открыть файл")
+        exit()
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
+        hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+        low_red = np.array([0, 120, 220])
+        high_red = np.array([10, 255, 255])
+        mask = cv2.inRange(hsv, low_red, high_red)
+
+        contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+        for contour in contours:
+            area = cv2.contourArea(contour)
+            if area > 0:
+                x, y, w, h = cv2.boundingRect(contour)
+                cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 4)
+
+        cv2.imshow('red_frame', frame)
+
+        if cv2.waitKey(30) & 0xFF == 27:
+            break
+    cap.release()
+    cv2.destroyAllWindows()
+
 morphological_transform()
