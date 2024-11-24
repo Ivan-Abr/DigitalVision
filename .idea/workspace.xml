@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR2 - Задание 3: Морфологическое преобразование фильтрованного изображения">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LR2.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR2.py" afterDir="false" />
-    </list>
+    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR3 - Размытие Гаусса средствами python" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,17 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python.LR1.executor": "Run",
-    "Python.LR1_8.executor": "Run",
-    "Python.LR2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "LR/#2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python.LR1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LR1_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LR2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gaussian_blur.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gaussian_blur_manual.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;LR/#3&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\python\visionLabs\data" />
@@ -173,7 +172,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728674682148</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="LR2 - Задание 4: трекинг объекта красного цвета">
+      <option name="closed" value="true" />
+      <created>1728731609609</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728731609609</updated>
+    </task>
+    <task id="LOCAL-00015" summary="LR3 - Размытие Гаусса средствами openCV">
+      <option name="closed" value="true" />
+      <created>1731233424572</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731233424572</updated>
+    </task>
+    <task id="LOCAL-00016" summary="LR3 - Размытие Гаусса средствами python">
+      <option name="closed" value="true" />
+      <created>1731451512772</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731451512772</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +205,16 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="LR/#3" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="LR/#2" />
@@ -207,7 +240,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="LR/#2" />
+                        <option value="LR/#3" />
                       </list>
                     </value>
                   </entry>
@@ -231,6 +264,9 @@
     <MESSAGE value="LR1 - Задание 8: Запись трансляции с камеры, заполненный крест, трекинг цвета" />
     <MESSAGE value="LR2 - Задание 1-2: Вывод видео в формате HSV. Вывод видео с фильтрацией красного" />
     <MESSAGE value="LR2 - Задание 3: Морфологическое преобразование фильтрованного изображения" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR2 - Задание 3: Морфологическое преобразование фильтрованного изображения" />
+    <MESSAGE value="LR2 - Задание 4: трекинг объекта красного цвета" />
+    <MESSAGE value="LR3 - Размытие Гаусса средствами openCV" />
+    <MESSAGE value="LR3 - Размытие Гаусса средствами python" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR3 - Размытие Гаусса средствами python" />
   </component>
 </project>
