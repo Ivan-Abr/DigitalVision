@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR3 - Размытие Гаусса средствами python">
-      <change afterPath="$PROJECT_DIR$/data/PIWO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controur_manual.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaussian_blur_manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaussian_blur_manual.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python.ContourTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LR1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LR1_8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LR2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gaussian_blur.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gaussian_blur_manual.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Disk D/PythonProjects/visionLabs/data&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.ContourTest.executor": "Run",
+    "Python.LR1.executor": "Run",
+    "Python.LR1_8.executor": "Run",
+    "Python.LR2.executor": "Run",
+    "Python.controur_manual.executor": "Run",
+    "Python.gaussian_blur.executor": "Run",
+    "Python.gaussian_blur_manual.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "LR/#4",
+    "last_opened_file_path": "F:/Disk D/PythonProjects/visionLabs/data"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Disk D\PythonProjects\visionLabs\data" />
@@ -61,7 +63,7 @@
       <recent name="E:\python\visionLabs\data" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.controur_manual">
     <configuration name="ContourTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="visionLabs" />
       <option name="ENV_FILES" value="" />
@@ -84,8 +86,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="controur_manual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="visionLabs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controur_manual.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.controur_manual" />
         <item itemvalue="Python.ContourTest" />
       </list>
     </recent_temporary>
@@ -278,7 +303,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="LR/#3" />
+                        <option value="LR/#4" />
                       </list>
                     </value>
                   </entry>

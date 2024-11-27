@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-
+import string
 
 def log_matrix(matrix, size: int, acc: int = 2):
     for i in range(size):
@@ -46,8 +46,7 @@ def convolution(image, kernel, size: int):
     return blurred[margin:h - margin, margin:w - margin]
 
 
-def gauss_manual(size: int, sigma: float):
-    file = r'E:\python\visionLabs\data\Adler2009.jpg'
+def gauss_manual(size: int, sigma: float, file: string):
     image = cv2.imread(file, cv2.IMREAD_UNCHANGED)
     if image is None:
         print("Invalid file: " + file)
@@ -65,6 +64,6 @@ def gauss_manual(size: int, sigma: float):
 
 
 if __name__ == "__main__":
-    gauss_manual(3, 1.5)
-    gauss_manual(5, 1.5)
+    gauss_manual(3, 1.5, r'E:\python\visionLabs\data\Adler2009.jpg')
+    gauss_manual(5, 1.5, r'E:\python\visionLabs\data\Adler2009.jpg')
 
