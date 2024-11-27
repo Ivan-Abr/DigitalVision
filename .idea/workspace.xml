@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR3 - Размытие Гаусса средствами python">
-      <change afterPath="$PROJECT_DIR$/controur_manual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR4 - Подготовка изображения">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaussian_blur_manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaussian_blur_manual.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controur_manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/controur_manual.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731451512772</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="LR4 - Подготовка изображения">
+      <option name="closed" value="true" />
+      <created>1732741125488</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732741125488</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,6 +336,7 @@
     <MESSAGE value="LR2 - Задание 4: трекинг объекта красного цвета" />
     <MESSAGE value="LR3 - Размытие Гаусса средствами openCV" />
     <MESSAGE value="LR3 - Размытие Гаусса средствами python" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR3 - Размытие Гаусса средствами python" />
+    <MESSAGE value="LR4 - Подготовка изображения" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR4 - Подготовка изображения" />
   </component>
 </project>
