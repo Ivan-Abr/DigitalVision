@@ -19,7 +19,7 @@ def convolution(img, kernel):
             value = 0
             for k in range(-(kernel_size//2), kernel_size//2+1):
                 for l in range(-(kernel_size//2), kernel_size//2+1):
-                    value += img[i + k][j + l] * kernel[k + (kernel_size//2)][l + (kernel_size//2)]
+                    value += int(img[i + k][j + l]) * kernel[k + (kernel_size//2)][l + (kernel_size//2)]
             matrix[i][j] = value
 
     return matrix
@@ -104,4 +104,4 @@ def main(path, standard_deviation, ksize, bound_path):
     log_matrix(img_gradient, img_gradient.size)
     cv2.imshow('img gradient to print ', img_gradient)
 if __name__ == "__main__":
-    main('data/PIWO.jpg', 6, 3, 6)
+    main('../data/PIWO.jpg', 6, 3, 6)

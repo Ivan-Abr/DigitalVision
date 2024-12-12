@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR4 - Подготовка изображения">
+    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR4 - Контуры с помощью методов OpenCV">
+      <change afterPath="$PROJECT_DIR$/LR4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/visionLabs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/visionLabs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controur_manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/controur_manual.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContourTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR4/ContourTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LR1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR1/LR1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LR1_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR1/LR1_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LR2.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR2/LR2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controur_manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR4/controur_manual.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaussian_blur.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR3/gaussian_blur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaussian_blur_manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR3/gaussian_blur_manual.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +37,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ivan-Abr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ivan-Abr/DigitalVision.git&quot;,
+    &quot;accountId&quot;: &quot;e243119a-507c-419f-82a0-273c31ea00cf&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -37,31 +58,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python.ContourTest.executor": "Run",
-    "Python.LR1.executor": "Run",
-    "Python.LR1_8.executor": "Run",
-    "Python.LR2.executor": "Run",
-    "Python.controur_manual.executor": "Run",
-    "Python.gaussian_blur.executor": "Run",
-    "Python.gaussian_blur_manual.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "LR/#4",
-    "last_opened_file_path": "F:/Disk D/PythonProjects/visionLabs/data"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python.ContourTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LR1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LR1_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LR2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LR4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.controur_manual.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gaussian_blur.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gaussian_blur_manual.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;LR/#4&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Disk D/PythonProjects/visionLabs/data&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Disk D\PythonProjects\visionLabs\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Disk D\PythonProjects\visionLabs\LR1" />
+      <recent name="F:\Disk D\PythonProjects\visionLabs\LR2" />
+      <recent name="F:\Disk D\PythonProjects\visionLabs\LR3" />
+      <recent name="F:\Disk D\PythonProjects\visionLabs\LR4" />
       <recent name="E:\python\visionLabs\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.controur_manual">
+  <component name="RunManager" selected="Python.LR4">
     <configuration name="ContourTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="visionLabs" />
       <option name="ENV_FILES" value="" />
@@ -75,7 +102,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ContourTest.py" />
+      <option name="SCRIPT_NAME" value="F:\Disk D\PythonProjects\visionLabs\LR4\ContourTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LR4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="visionLabs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LR4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +146,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/controur_manual.py" />
+      <option name="SCRIPT_NAME" value="F:\Disk D\PythonProjects\visionLabs\LR4\controur_manual.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,6 +157,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LR4" />
         <item itemvalue="Python.controur_manual" />
         <item itemvalue="Python.ContourTest" />
       </list>
@@ -116,7 +166,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
