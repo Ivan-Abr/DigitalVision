@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-def compute_gradient(image):
+def find_gradient(image):
     sobel_x = np.array([
         [-1, 0, 1],
         [-2, 0, 2],
@@ -21,7 +21,7 @@ def compute_gradient(image):
     return gradient_length, gradient_direction
 
 
-def non_max_suppression(image, gradient_length, gradient_direction):
+def suppress_nonmax(image, gradient_length, gradient_direction):
     height, width = image.shape
     suppressed = np.zeros((height, width), dtype=np.float32)
 
@@ -74,22 +74,26 @@ def double_threshold(image, low_threshold, high_threshold):
 
 
 def main():
-    path = '../data/PIWO.jpg'
+    path = 'data/PIWO.jpg'
     img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
-    ksize = 5
+    ksize = 3
     standard_deviation = 6
     blurred_img = cv2.GaussianBlur(img, (ksize, ksize), standard_deviation)
     cv2.namedWindow("Image_gauss")
     cv2.imshow("Image_gauss", blurred_img)
 
-    gradient_length, gradient_direction = compute_gradient(blurred_img)
-
-    suppressed_image = non_max_suppression(blurred_img, gradient_length, gradient_direction)
+    gradient_length, gradient_direction = find_gradient(blurred_img)
+    cv2.namedWindow("Gradient length")
+    cv2.imshow("Gradient_length", gradient_length)
+    cv2.namedWindow("Gradient_direction")
+    cv2.imshow("Gradient_direction", gradient_direction)
+    suppressed_image = suppress_nonmax(blurred_img, gradient_length, gradient_direction)
     suppressed_image = np.uint8(suppressed_image)
     cv2.imshow('Suppressed Image', suppressed_image)
 
-    max_length = suppressed_image.max()
-    low_threshold, high_threshold = max_length * 0.04, max_length * 0.2
+    # тут должна быть максимальная длина градиента
+    max_length = gradient_length.max()
+    low_threshold, high_threshold = max_length * 0.05, max_length * 0.1
     filtered_image = double_threshold(suppressed_image, low_threshold,high_threshold)
     cv2.imshow('Final Image', filtered_image)
     if cv2.waitKey(0) == 27:

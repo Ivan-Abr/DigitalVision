@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR4 - Контуры с помощью методов OpenCV">
-      <change afterPath="$PROJECT_DIR$/LR4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/visionLabs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/visionLabs.iml" afterDir="false" />
+    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR4 - Раскид по папкам. ЛР4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContourTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR4/ContourTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LR1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR1/LR1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LR1_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR1/LR1_8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LR2.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR2/LR2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controur_manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR4/controur_manual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaussian_blur.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR3/gaussian_blur.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaussian_blur_manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR3/gaussian_blur_manual.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LR4/LR4.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR4/LR4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +72,10 @@
       <recent name="F:\Disk D\PythonProjects\visionLabs\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Disk D\PythonProjects\visionLabs\LR4" />
       <recent name="F:\Disk D\PythonProjects\visionLabs\LR1" />
       <recent name="F:\Disk D\PythonProjects\visionLabs\LR2" />
       <recent name="F:\Disk D\PythonProjects\visionLabs\LR3" />
-      <recent name="F:\Disk D\PythonProjects\visionLabs\LR4" />
       <recent name="E:\python\visionLabs\data" />
     </key>
   </component>
@@ -124,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LR4.py" />
+      <option name="SCRIPT_NAME" value="F:\Disk D\PythonProjects\visionLabs\LR4\LR4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732741125488</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="LR4 - Раскид по папкам. ЛР4">
+      <option name="closed" value="true" />
+      <created>1734004686529</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1734004686529</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,6 +386,7 @@
     <MESSAGE value="LR3 - Размытие Гаусса средствами openCV" />
     <MESSAGE value="LR3 - Размытие Гаусса средствами python" />
     <MESSAGE value="LR4 - Подготовка изображения" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR4 - Подготовка изображения" />
+    <MESSAGE value="LR4 - Раскид по папкам. ЛР4" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR4 - Раскид по папкам. ЛР4" />
   </component>
 </project>
