@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR4 - Раскид по папкам. ЛР4">
+      <change afterPath="$PROJECT_DIR$/IZ2/contour_manual.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LR4/LR4.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR4/LR4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +49,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python.ContourTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LR1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LR1_8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LR2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LR4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.controur_manual.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gaussian_blur.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gaussian_blur_manual.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;LR/#4&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Disk D/PythonProjects/visionLabs/data&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.ContourTest.executor": "Run",
+    "Python.LR1.executor": "Run",
+    "Python.LR1_8.executor": "Run",
+    "Python.LR2.executor": "Run",
+    "Python.LR4.executor": "Run",
+    "Python.controur_manual.executor": "Run",
+    "Python.gaussian_blur.executor": "Run",
+    "Python.gaussian_blur_manual.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "IZ/#2",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "F:/Disk D/PythonProjects/visionLabs/IZ2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Disk D\PythonProjects\visionLabs\data" />
