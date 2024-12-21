@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR4 - Раскид по папкам. ЛР4">
-      <change afterPath="$PROJECT_DIR$/IZ2/contour_manual.py" afterDir="false" />
+    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="IZ2 - Тестирование различных операторов">
+      <change afterPath="$PROJECT_DIR$/IZ2/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IZ2/graph_contour.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dataset/apple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dataset/apples.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dataset/many_apples.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,26 +64,28 @@
     "Python.controur_manual.executor": "Run",
     "Python.gaussian_blur.executor": "Run",
     "Python.gaussian_blur_manual.executor": "Run",
+    "Python.graph.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "IZ/#2",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/Disk D/PythonProjects/visionLabs/IZ2"
+    "last_opened_file_path": "F:/Disk D/PythonProjects/visionLabs/data"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Disk D\PythonProjects\visionLabs\data" />
+      <recent name="F:\Disk D\PythonProjects\visionLabs\IZ2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Disk D\PythonProjects\visionLabs\data" />
       <recent name="F:\Disk D\PythonProjects\visionLabs\LR4" />
       <recent name="F:\Disk D\PythonProjects\visionLabs\LR1" />
       <recent name="F:\Disk D\PythonProjects\visionLabs\LR2" />
       <recent name="F:\Disk D\PythonProjects\visionLabs\LR3" />
-      <recent name="E:\python\visionLabs\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LR4">
+  <component name="RunManager" selected="Python.graph">
     <configuration name="ContourTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="visionLabs" />
       <option name="ENV_FILES" value="" />
@@ -146,8 +152,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="visionLabs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IZ2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IZ2/graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.graph" />
         <item itemvalue="Python.LR4" />
         <item itemvalue="Python.controur_manual" />
         <item itemvalue="Python.ContourTest" />
@@ -314,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734004686529</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="IZ2 - Тестирование различных операторов">
+      <option name="closed" value="true" />
+      <created>1734774978966</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1734774978966</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,6 +424,7 @@
     <MESSAGE value="LR3 - Размытие Гаусса средствами python" />
     <MESSAGE value="LR4 - Подготовка изображения" />
     <MESSAGE value="LR4 - Раскид по папкам. ЛР4" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR4 - Раскид по папкам. ЛР4" />
+    <MESSAGE value="IZ2 - Тестирование различных операторов" />
+    <option name="LAST_COMMIT_MESSAGE" value="IZ2 - Тестирование различных операторов" />
   </component>
 </project>
