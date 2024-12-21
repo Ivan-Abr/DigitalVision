@@ -20,7 +20,7 @@ def read_image():
 
 #TASK 3
 def read_video():
-    cap = cv2.VideoCapture('data/helloArbuz.mp4')
+    cap = cv2.VideoCapture('../data/helloArbuz.mp4')
     if not cap.isOpened():
         print("Невозможно открыть файл")
         exit()
@@ -40,7 +40,7 @@ def read_video():
 
 #TASK 4
 def readIPWriteTOFile():
-    video = cv2.VideoCapture(r'data/helloArbuz.mp4', cv2.CAP_ANY)
+    video = cv2.VideoCapture(r'../data/helloArbuz.mp4', cv2.CAP_ANY)
     ok, vid = video.read()
 
     w = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))

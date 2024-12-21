@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR3 - Размытие Гаусса средствами python" />
+    <list default="true" id="036f1aac-b0c0-41c9-aace-e5196d84d2ec" name="Changes" comment="LR4 - Раскид по папкам. ЛР4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LR4/LR4.py" beforeDir="false" afterPath="$PROJECT_DIR$/LR4/LR4.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +28,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ivan-Abr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ivan-Abr/DigitalVision.git&quot;,
+    &quot;accountId&quot;: &quot;e243119a-507c-419f-82a0-273c31ea00cf&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -37,25 +52,112 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python.ContourTest.executor&quot;: &quot;Run&quot;,
     &quot;Python.LR1.executor&quot;: &quot;Run&quot;,
     &quot;Python.LR1_8.executor&quot;: &quot;Run&quot;,
     &quot;Python.LR2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LR4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.controur_manual.executor&quot;: &quot;Run&quot;,
     &quot;Python.gaussian_blur.executor&quot;: &quot;Run&quot;,
     &quot;Python.gaussian_blur_manual.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;LR/#3&quot;
+    &quot;git-widget-placeholder&quot;: &quot;LR/#4&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Disk D/PythonProjects/visionLabs/data&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Disk D\PythonProjects\visionLabs\data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Disk D\PythonProjects\visionLabs\LR4" />
+      <recent name="F:\Disk D\PythonProjects\visionLabs\LR1" />
+      <recent name="F:\Disk D\PythonProjects\visionLabs\LR2" />
+      <recent name="F:\Disk D\PythonProjects\visionLabs\LR3" />
       <recent name="E:\python\visionLabs\data" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.LR4">
+    <configuration name="ContourTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="visionLabs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\Disk D\PythonProjects\visionLabs\LR4\ContourTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LR4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="visionLabs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\Disk D\PythonProjects\visionLabs\LR4\LR4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="controur_manual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="visionLabs" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="F:\Disk D\PythonProjects\visionLabs\LR4\controur_manual.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.LR4" />
+        <item itemvalue="Python.controur_manual" />
+        <item itemvalue="Python.ContourTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -196,7 +298,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731451512772</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="LR4 - Подготовка изображения">
+      <option name="closed" value="true" />
+      <created>1732741125488</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732741125488</updated>
+    </task>
+    <task id="LOCAL-00018" summary="LR4 - Раскид по папкам. ЛР4">
+      <option name="closed" value="true" />
+      <created>1734004686529</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1734004686529</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +358,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="LR/#3" />
+                        <option value="LR/#4" />
                       </list>
                     </value>
                   </entry>
@@ -267,6 +385,8 @@
     <MESSAGE value="LR2 - Задание 4: трекинг объекта красного цвета" />
     <MESSAGE value="LR3 - Размытие Гаусса средствами openCV" />
     <MESSAGE value="LR3 - Размытие Гаусса средствами python" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR3 - Размытие Гаусса средствами python" />
+    <MESSAGE value="LR4 - Подготовка изображения" />
+    <MESSAGE value="LR4 - Раскид по папкам. ЛР4" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR4 - Раскид по папкам. ЛР4" />
   </component>
 </project>
